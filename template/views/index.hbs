@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/img/weather.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <p>Use this site to get your forecast</p>
+
+      <form>
+        <input type="text" placeholder="Location">
+        <button>Search</button>
+      </form>
+
+      <p id="msg-1"></p>
+      <p id="msg-2"></p>
+    </div>
+    {{>footer}}
+  </body>
+</html>
